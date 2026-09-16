@@ -1,0 +1,69 @@
+datos ingresados:
+a = 2
+b = 3
+
+El programa utiliza una función llamada prueba(x,y). La función primero muestra los valores de a y b, luego aumenta x en 1 e y en 1, y finalmente 
+devuelve los valores de x e y meidante return(x,y).
+
+En el programa principal se utiliza:
+for i in range(3):
+Esto significa que el ciclo se repite 3 veces.
+
+Primera vuelta:
+
+Al comenzar:
+a = 2
+b = 3
+se ejecuta prueba(2,3).
+Dentro de la funcion, print(a,b) muestra:
+2 3
+
+Luego:
+x = 2 + 1 = 3
+y = 3 + 1 = 4
+La funcion devuelve (3,4), por lo tanto se muestra:
+(3,4)
+
+Después se ejecuta:
+a = a + 2
+b = b + 2
+Entonces:
+a = 4
+b = 5
+
+Segunda vuelta:
+
+Ahora:
+a = 4
+b = 5
+Se ejecuta prueba(4,5).
+print(a,b) muestra:
+4  5
+Luego:
+x = 4 + 1 = 5
+y = 5 + 1 = 6
+La funcion devuelve:
+(5, 6)
+Después:
+a = 4 + 2 = 6
+b = 5 + 2 = 7
+
+Tercera vuelta:
+
+Ahora:
+a = 6
+b = 7
+Se ejecuta prueba(6,7).
+print(a,b) muestra:
+6  7
+Luego:
+x = 6 + 1 = 7
+y = 7 + 1 = 8
+La funcion devulve:
+(7,8)
+Despues:
+a = 6 + 2 = 8
+b = 7 + 2 = 9
+
+El ciclo termina porque range(3) solamente realiza tres repeticiones.
+

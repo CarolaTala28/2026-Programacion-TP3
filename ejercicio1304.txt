@@ -1,0 +1,14 @@
+La opcion 1 falla porque la funcion escribe_media() intenta utilizar 
+las variables a y b sin recibirlas como parametros. Las variables a y b están
+definidas en programa.py y la funcion no puede acceder a ellas directamente, entonces
+tira error. 
+
+La opcion 2 funciona correctamente porque la funcion recibe a y b
+como paramentros x e y.
+se calcula:
+(3 + 5) / 2 = 4.0
+por lo tanto muestra:
+La media de 3 y 5 es: 4.0
+
+La funcion 3 tambien funciona. La funcion recibe a y b, calcula la media y devuelve
+el resultado mediante return. Luego el programa utiliza ese resultado en el print.

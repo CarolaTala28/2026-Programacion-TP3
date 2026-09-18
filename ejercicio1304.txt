@@ -3,12 +3,9 @@ las variables a y b sin recibirlas como parametros. Las variables a y b están
 definidas en programa.py y la funcion no puede acceder a ellas directamente, entonces
 tira error. 
 
-La opcion 2 funciona correctamente porque la funcion recibe a y b
-como paramentros x e y.
-se calcula:
-(3 + 5) / 2 = 4.0
-por lo tanto muestra:
-La media de 3 y 5 es: 4.0
+La opcion 2 tambien falla. Aunque la funcion recibe correctamente los parametros x e y,
+y puede calcular la media, el print utiliza las variables a y b en lugar de x e y.
+Como a y b pertenecen a programa.py, no estan disponibles dentro de funciones.py.
 
-La funcion 3 tambien funciona. La funcion recibe a y b, calcula la media y devuelve
+La funcion 3 funciona. La funcion recibe x e y como paramentros, calcula la media y devuelve
 el resultado mediante return. Luego el programa utiliza ese resultado en el print.

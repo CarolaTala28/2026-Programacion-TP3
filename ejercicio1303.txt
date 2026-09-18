@@ -1,6 +1,6 @@
 El codigo utiliza una funcion llamada validad_dni, que cuenta la cantidad de digitos que tiene el DNI.
 
-La funcion utiliza un qhile para dividir el DNI por 10 hasta llegar a 0. Por cada division
+La funcion utiliza un while para dividir el DNI por 10 hasta llegar a 0. Por cada division
 aumenta la variable cantidad en 1.
 
 Al finalizar, devuelve true si la cantidad es igual a 8. Asi el programa considera valido el DNI ingresado.
@@ -58,5 +58,5 @@ el programa muestra:
 Nombre de la persona mayor: Carlos Alberto Sanchez 
 
 >>> Si se ingresa el DNI 345678233, como tiene un total de 9 digitos y hay una funcion que valida los dni solamente con 
-8 digitos, como 9 == 8 es falso, la funcion devuelte false, entonces, el programa
+8 digitos, y como 9 == 8 es falso, la funcion devuelte false, entonces, el programa
 ejecuta el else y muestra DNI invalido. Vuelva a ingresar. 
